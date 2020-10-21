@@ -1,17 +1,17 @@
 {
-  "name": "Project1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "codeceptjs": "^2.3.5",
-    "puppeteer": "^2.0.0",
-    "save": "^2.4.0"
-  }
+	"name": "CodeceptJSDemo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "codeceptjs run --steps",
+		"test-multiple": "codeceptjs run-multiple --all --steps"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"codeceptjs": "^2.6.11",
+		"webdriverio": "^6.6.6"
+	}
 }
